@@ -8,6 +8,13 @@ const nextConfig = {
       },
     ],
   },
+  generateStaticParams: async () => {
+    // Routes
+    return [
+      { path: '/', static: true },
+      // Potential other routes as needed
+    ];
+  },
 };
 
 module.exports = nextConfig;

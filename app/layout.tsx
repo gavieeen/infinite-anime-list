@@ -9,7 +9,7 @@ import "./globals.css";
 const dmSans = DM_Sans({ subsets: ["latin"] });
 
 export const metadata: Metadata = {
-  title: "Anime Vault",
+  title: "∞ Anime List",
   description: "Your favorite anime, all in one place.",
 };
 
@@ -20,6 +20,9 @@ export default function RootLayout({
 }) {
   return (
     <html lang="en">
+      <head>
+        <link rel="icon" href="/favicon.ico" />
+      </head>
       <body className={dmSans.className}>
         <main className="max-w-7xl mx-auto bg-[#0F1117]">
           <Hero />
