@@ -12,3 +12,5 @@ Created an innovative anime list website that seamlessly integrates with the Shi
 The LoadMore anime page is a testament to the "use client" directive, providing a client-side rendered experience. Leveraging the inView property, the website intelligently detects the end of the page, triggering the seamless loading of additional anime content. The result is an infinite scroll feature that mimics the experience of clicking "next page" endlessly, offering users a continuous stream of engaging anime content.
 
 This project not only delivers a user-friendly and visually appealing anime list but also serves as a showcase for the powerful capabilities of Next.js, demonstrating the synergy between server actions and client-side rendering to enhance the overall user experience.
+
+(Click the Anime Title Images for an Animation)
